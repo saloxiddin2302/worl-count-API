@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/home.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h2>
+                    Where in the world?
+                </h2>
+                <h4>
+                    <p>
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                        Dark Mode
+                    </p>
+                </h4>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <div class="loader">
+        <span>{</span><span>}</span>
+    </div> -->
+    <main>
+        <section id="home">
+            <div class="home__top">
+                <div class="container">
+                    <div class="home__search">
+                        <input type="text" placeholder="Search for a country...">
+                    </div>
+                    <div class="home__filter">
+                        <select name="type" id="country" class="filter-select">
+                            <option value="filter" selected disabled>Filter by Region</option>
+                            <option value="all">All Regions</option>
+                            <option value="africa">Africa</option>
+                            <option value="america">America</option>
+                            <option value="asia">Asia</option>
+                            <option value="europe">Europe</option>
+                            <option value="oceania">Oceania</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="home">
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="pagination">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/request.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

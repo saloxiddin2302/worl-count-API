@@ -1,0 +1,24 @@
+.dark-light{
+    background-color: rgba(32, 44, 54, 1);
+}
+
+.dark-light nav {
+    background-color: rgba(43, 56, 68, 1);
+    h2,h4 {
+        color: #Ffffff;
+    }
+}
+
+.dark-light { 
+    .home__card {
+        background-color: rgba(43, 56, 68, 1);
+        border: 1px solid rgba(43, 56, 68, 1);
+        &__img {
+            background-color: rgba(43, 56, 68, 1);;
+        }
+        &__info {
+            background-color: rgba(43, 56, 68, 1);;
+            color: #Ffffff;
+        }
+    }
+}

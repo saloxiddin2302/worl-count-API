@@ -1,0 +1,51 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    padding: 20px 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-size: 24px;
+        }
+
+        h4 {
+            p {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                i {
+                    font-size: 20px;
+                }
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2 {
+                font-size: 16px;
+            }
+    
+            h4 {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

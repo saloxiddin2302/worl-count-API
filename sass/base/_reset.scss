@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,a,span,button {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+
+
